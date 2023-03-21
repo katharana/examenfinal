@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+
+:root{
+	--f7-theme-color:#5079FE;
+	--f7-navbar-bg-color: #fff; /*navbar*/
+	--f7-navbar-link-color: #5079FE; /*navbar link*/
+	--f7-navbar-text-color:#7C899F;
+	--f7-bars-bg-color:#fff;/*toolbar*/
+	--f7-tabbar-link-inactive-color: #333; /*link toolbar*/
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent; 
+}
+
+body{
+	
+	font-family: 'Roboto', sans-serif;
+	
+}
+.img-fluid{
+	max-width: 100%;
+	display:block;
+}
+
+p{
+	margin: 5px 0;
+}
+
+
+.hero{
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+
+.hero h2.block-title.block-title-medium{
+	padding-top: 20%;
+	color: #2E2E2E;
+}
+
+.hero h2.block-title.block-title-large{
+	padding-bottom: 30%;
+	color: #2E2E2E;
+
+}
+
+
+.card{
+ background-color: #FFAACC;
+margin: 5px 30px;
+}
+
+.card-content{
+margin: 5px 30px;
+}
+
+.card-white{
+	background-color: #FFFFFF;
+margin: 5px 30px;
+}
+
+.descuento{
+	background-color: hotpink;
+	
+}
+
+.card-white h6{
+	color: red;
+	margin-bottom: 20px;
+	
+}
+
+.card-white img{
+  margin: 50px 30px 50px;
+	
+}
+
+.descuento h1{
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Manrope';
+}
+	
+
+
+.demo-card-header-pic .card-header {
+  height: 40vw;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+.demo-card-header-pic .card-content-padding .date{
+  color: #8e8e93;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

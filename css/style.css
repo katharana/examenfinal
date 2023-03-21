@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 
 
@@ -11,6 +12,8 @@
 	--f7-block-margin-vertical:20px;
 	--f7-card-footer-border-color:transparent; 
 }
+
+
 
 body{
 	
@@ -32,6 +35,16 @@ p{
 	background-repeat: no-repeat;
 	background-position: center;
 	
+}
+
+.demo-card-header-pic .card-header {
+  height: 40vw;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+.demo-card-header-pic .card-content-padding .date{
+  color: #8e8e93;
 }
 
 .hero h2.block-title.block-title-medium{
@@ -60,10 +73,7 @@ margin: 5px 30px;
 margin: 5px 30px;
 }
 
-.descuento{
-	background-color: hotpink;
-	
-}
+
 
 .card-white h6{
 	color: red;
@@ -76,12 +86,11 @@ margin: 5px 30px;
 	
 }
 
-.descuento h1{
-	text-align: center;
-	font-size: 50px;
-	font-family: 'Manrope';
+
+.img-fluid{
+	max-width: 100%;
+	display:block;
 }
-	
 
 
 .demo-card-header-pic .card-header {
@@ -95,7 +104,213 @@ margin: 5px 30px;
 }
 
 
+.hero-image img {
+  rounded-circles: 50%;
+}
 
+
+.hero-image .hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+section[data-name="Login"] 
+	
+	.page-content {
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+}
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.page-content {
+  width: 80%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 50px;
+}
+
+
+.personal-info h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.personal-info form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.personal-info label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.personal-info input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.personal-info input:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.personal-info input::placeholder {
+  color: #999;
+}
+
+.personal-info input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.personal-info label[for="recuerdame"] {
+  font-size: 14px;
+}
+
+section[data-name="Detalle"] 
+
+
+	
+.container { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Iconos-Detalle i {
+    display: flex;
+    justify-content: left;
+	color: #ffa500;
+}
+.swiper-container {
+  width: 65%;
+  height: 65%;
+	
+}
+
+.swiper-slide img {
+  max-width: 70%;
+  max-height: 70%;
+  object-fit: contain;
+}
+.item-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-agregar-carrito {
+    margin-top: 20px;
+}
+.Detalle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.precio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Categoria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carrusel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+
+	
+
+
+
+section[data-name="Lista"] {
+  background-color: #f2f2f2; 
+  padding: 2rem 0; 
+}
+
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+  overflow: hidden; 
+  margin-bottom: 2rem; 
+}
+
+
+.card-image img {
+  width: 100%; 
+  height: auto; 
+}
+
+
+.card-header {
+  background-color: #ffffff; 
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 0.5rem;
+}
+
+
+.favorite-symbol i {
+  font-size: 1.5rem;
+  color: #c1c1c1; 
+}
+
+
+.favorite-symbol.active-symbol i {
+  color: #ffa500; 
+}
+
+
+.card-text {
+  padding: 1rem;
+}
+
+
+.title-item {
+  font-size: 1.2rem;
+  font-weight: 700; 
+  margin-bottom: 0.5rem; 
+}
+
+
+.price-item {
+  font-size: 1.1rem;
+  margin-bottom: 1rem; 
+}
+
+
+.location-item {
+  font-size: 1rem;
+  color: #c1c1c1; 
+	
+}
 
 
 

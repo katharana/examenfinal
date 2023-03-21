@@ -15,6 +15,7 @@ var app = new Framework7({
 	panel: {
 		swipe: true,
 	},
+	
   	routes: [
 		{
 		path: '/home/',
@@ -22,24 +23,19 @@ var app = new Framework7({
     	name: 'home',
   		},
 		{
+		path: '/lista/',
+    	url: 'lista.html',
+    	name: 'lista',
+  		},
+		{
 		path: '/detalles/',
     	url: 'detalles.html',
     	name: 'detalles',
   		},
 		{
-		path: '/descuentos/',
-    	url: 'descuentos.html',
-    	name: 'descuentos',
-  		},
-		{
-		path: '/swiper/',
-    	url: 'swiper.html',
-    	name: 'swiper',
-  		},
-		{
-		path: '/checkout/',
-    	url: 'checkout.html',
-    	name: 'checkout',
+		path: '/perfil/',
+    	url: 'perfil.html',
+    	name: 'perfil',
   		}
 		
 	],
